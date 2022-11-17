@@ -132,3 +132,50 @@ console.log(dato)
 
 //-11-Crear un programa donde se introduzcan los tres ángulos internos de un triángulo y se determine si el triángulo es válido o no.
 
+/*
+const lado1 = Number(prompt('ingrese un valor para el lado 1 del triangulo'));
+const lado2 = Number(prompt('ingrese un valor para el lado 2 del triangulo'));
+const lado3 = Number(prompt('ingrese un valor para el lado 3 del triangulo'));
+
+const triangulo = (lado1, lado2, lado3) => {
+    if( lado1 != lado2 && lado1 != lado3 || lado1 === lado2) {
+        return alert('tu triangulo tiene 3 lados diferentes(?');
+    }else alert('no es un dato valido')   
+};
+
+triangulo();
+*/
+
+
+//-12-Determinar si una palabra empieza con mayúscula o no.
+
+
+// const palabra = prompt('ingresa una palabra');
+
+// function tiene_mayusculas(texto){
+//     for(i=0; i<texto.length; i++){
+//        if (palabra.indexOf(texto.charAt(i),0)!=-1){
+//           return true;
+//        }else false
+//     }
+   
+// }
+
+// alert(tiene_mayusculas(palabra));
+
+
+
+//-13-Determinar si un año dado es bisiesto
+
+/*
+const esAnioBisiesto = (year) => {
+    return (year % 400 === 0) ? true : 
+                (year % 100 === 0) ? false : 
+                    year % 4 === 0;
+};
+
+console.log(esAnioBisiesto(2022))
+console.log(esAnioBisiesto(1992))
+console.log(esAnioBisiesto(2001))
+console.log(esAnioBisiesto(2145))
+*/
